@@ -11,4 +11,4 @@ ot.on('ready', () => {//Toxic Codes
 bot.on('guildMemberAdd', (member) => {//Toxic Codes
 member.addRole(member.guild.roles.find('name', role));
 });
-client.login(process.env.NTI5NzE0ODgzOTk5MTcwNTcy.Dw1CZQ.Ld1V6qnGSzayakdxMl8urrdaRkw);
+client.login(process.env.BOT_TOKEN);
